@@ -27,7 +27,7 @@ A simple browser-based Etch-A-Sketch drawing grid built with **HTML**, **CSS**, 
 
 ## 📸 Screenshot
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.PNG)
 
 ## 🛠️ Setup Instructions
 
