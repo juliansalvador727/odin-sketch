@@ -2,6 +2,10 @@
 
 A simple browser-based Etch-A-Sketch drawing grid built with **HTML**, **CSS**, and **JavaScript**. Click and drag to draw in vibrant colors, right-click to erase, and customize your grid size with ease.
 
+## 🔗 Live Demo
+
+👉 [Try it here!](https://juliansalvador727.github.io/odin-sketch/)
+
 ## 🚀 Features
 
 - 🖌️ Draw with a "pen" by left-clicking and dragging across the grid
@@ -40,3 +44,7 @@ git clone https://github.com/your-username/odin-sketch.git
 cd odin-sketch
 open index.html
 ```
+
+## 📝 License
+
+This project is open source and free to use under the [MIT License](LICENSE).
