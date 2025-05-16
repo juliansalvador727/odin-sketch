@@ -25,6 +25,10 @@ A simple browser-based Etch-A-Sketch drawing grid built with **HTML**, **CSS**, 
 - CSS3 (with Flexbox)
 - Vanilla JavaScript (no libraries or frameworks)
 
+## 📸 Screenshot
+
+![screenshot](./screenshot.png)
+
 ## 🛠️ Setup Instructions
 
 1. Clone or download the repository
@@ -34,5 +38,5 @@ A simple browser-based Etch-A-Sketch drawing grid built with **HTML**, **CSS**, 
 ```bash
 git clone https://github.com/your-username/odin-sketch.git
 cd odin-sketch
-open index.html  # or double-click it
+open index.html
 ```
