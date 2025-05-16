@@ -8,11 +8,17 @@ body {
 }
 
 #container {
+  margin: 20px;
   display: flex;
   flex-wrap: wrap;
   width: 640px;
   height: 640px;
   border: 2px solid black;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  cursor: crosshair;
 }
 
 .grid-square {
@@ -20,4 +26,11 @@ body {
   height: 160px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
 }
