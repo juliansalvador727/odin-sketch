@@ -5,6 +5,7 @@ const clearBtn = document.getElementById("clearGrid");
 const gridSizeInput = document.getElementById("gridSize");
 const gridSizeLabel = document.getElementById("gridSizeLabel");
 const resizeBtn = document.getElementById("resizeGrid");
+const fillBtn = document.getElementById("fillGrid");
 
 let leftClickHold = false;
 let rightClickHold = false;
@@ -83,6 +84,15 @@ function createGrid(gridSquare) {
     container.appendChild(square);
   }
 }
+
+fillBtn.onclick = () => {
+  const gridSquares = document.querySelectorAll(".grid-square");
+  gridSquares.forEach((square) => {
+    square.style.backgroundColor = getRandomColor();
+    square.style.transition = "background-color 0.2s ease";
+    square.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.5)";
+  });
+};
 
 resizeBtn.onclick = () => {
   const gridSize = parseInt(gridSizeInput.value);
